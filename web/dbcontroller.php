@@ -1,9 +1,9 @@
 <?php
 class DBController {
-	private $host = "localhost";
-	private $user = "root";
-	private $password = "";
-	private $database = "f33ee";
+	private $host = "cig4l2op6r0fxymw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+	private $user = "ni2t695dqr8k9ram";
+	private $password = "xrtqmz95prk7ge4p";
+	private $database = "rsqxw3chrlumstq0";
 	private $conn;
 	
 	function __construct() {
@@ -33,7 +33,7 @@ class DBController {
 ?>
 
 <?php
-@$db = new mysqli('localhost','root','','f33ee');
+@$db = new mysqli('cig4l2op6r0fxymw.cbetxkdyhwsb.us-east-1.rds.amazonaws.com','ni2t695dqr8k9ram','xrtqmz95prk7ge4p','rsqxw3chrlumstq0');
 // @ to ignore error message display //
 if ($db->connect_error){
 	echo "Database is not online"; 
