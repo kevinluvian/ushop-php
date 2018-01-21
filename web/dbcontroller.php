@@ -43,6 +43,6 @@ if ($db->connect_error){
 /*	else
 	echo "Congratulations...  MySql is working..";
 */
-if (!$db->select_db ("f33ee"))
-	exit("<p>Unable to locate the f33ee database</p>");
+if (!$db->select_db ("ni2t695dqr8k9ram"))
+	exit("<p>Unable to locate the ni2t695dqr8k9ram database</p>");
 ?>	
